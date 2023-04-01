@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: lightgrey;
+    height: 50px;
+
+}
+nav {
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+nav > a {
+    text-decoration: none;
+    color: rgba(red, green, blue, alpha);
+    padding: 0 30px;
+    font-size: 20px;
+}
+.about_us {
+    display: flex;
+    justify-content: center;
+  
+}
+.about_us img {
+    width: 500px;
+}
+
+.about_us-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.about_us-description * {
+    padding: 15px;
+
+}
+
+.My_game {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.chosen_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.chosen_block-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 650px;
+}
+.chosen_block-container > div {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(247, 191, 159);
+    align-items: center;
+}
+.chosen_element {
+    border: 3 px solid black;
+}
